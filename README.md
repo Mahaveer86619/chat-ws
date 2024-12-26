@@ -51,3 +51,8 @@ This project is a WebSocket-based chat server where users can register and commu
    ```bash
    git clone https://github.com/<username>/chat-ws.git
    cd chat-ws
+
+2. **Build and Start the Docker Container**:
+   ```bash
+   docker-compose up -d
+   ```
