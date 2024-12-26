@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  chat-server:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - GO_ENV=production
+    networks:
+      - chat-network
+
+networks:
+  chat-network:
+    driver: bridge
