@@ -49,7 +49,7 @@ This project is a WebSocket-based chat server where users can register and commu
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<username>/chat-ws.git
+   git clone https://github.com/Mahaveer86619/chat-ws.git
    cd chat-ws
 
 2. **Build and Start the Docker Container**:
